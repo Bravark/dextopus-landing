@@ -19,7 +19,7 @@ export default function Products() {
           </h2>
           <p className="text-xl text-text-dim max-w-2xl">
             Deposit brings money into your product from your users. Withdrawal sends
-            it out to wherever they need it. Both run on the same two endpoints. Your
+            it out to wherever they need it. Both run on the same endpoint. Your
             infrastructure stays exactly as it is.
           </p>
         </div>
@@ -38,7 +38,7 @@ export default function Products() {
               A user sends Bitcoin, USDT on Tron, WBTC on Ethereum, SOL on Solana,
               USDC on Celo, GUN on Gunz, or any supported token. Dextopus detects the
               transaction, converts it, and delivers your chosen stablecoin to your
-              recipient address. Your user never touches a bridge. You receive exactly
+              recipient address. Your user never has to touch a bridge. You receive exactly
               what you configured.
             </p>
             <p className="text-xl text-text-dim leading-relaxed">

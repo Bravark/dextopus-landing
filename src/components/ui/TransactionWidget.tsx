@@ -54,7 +54,7 @@ const transactions: TransactionData[] = [
       chainLogo: 'https://assets.relay.link/icons/1/light.png',
     },
     status: 'Settled',
-    time: '18.7s',
+    time: '4.7s',
   },
   {
     userSends: {

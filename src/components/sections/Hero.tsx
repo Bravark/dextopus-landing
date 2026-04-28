@@ -19,18 +19,18 @@ export default function Hero({ globe, transactionWidget }: HeroProps) {
               <span className="text-gradient">for your users.</span>
             </h1>
             <p className="text-xl text-text-dim max-w-2xl">
-              Your product stays the same. Your users can now fund from 70+ chains
+              Your users can now fund from 70+ chains
               and withdraw to wherever they need. You collect a fee on every
               transaction.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <Button variant="primary" size="lg" href="https://app.dextopus.com">
+            <Button variant="primary" size="lg" href="https://dextopus.gitbook.io/dextopus-docs">
               Start Building
             </Button>
-            <Button variant="outline" size="lg" href="https://docs.dextopus.com">
-              Read Documentation
+            <Button variant="outline" size="lg" href="https://calendly.com/dextopus/30min">
+              Talk to Us
             </Button>
           </div>
 

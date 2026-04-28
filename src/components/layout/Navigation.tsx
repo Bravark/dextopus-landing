@@ -7,10 +7,9 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navLinks = [
-    { label: 'Products', href: '#products' },
-    { label: 'Use Cases', href: '#use-cases' },
-    { label: 'Docs', href: 'https://docs.dextopus.com', external: true },
-    { label: 'Pricing', href: '#pricing' },
+    { label: 'Products', href: 'https://dextopus.gitbook.io/dextopus-docs/products' },
+    { label: 'Use Cases', href: 'https://dextopus.gitbook.io/dextopus-docs/use-casess' },
+    { label: 'Docs', href: 'https://dextopus.gitbook.io/dextopus-docs', external: true },
   ]
 
   return (
@@ -41,10 +40,10 @@ export default function Navigation() {
 
             {/* Desktop CTAs */}
             <div className="hidden md:flex items-center gap-4">
-              <Button variant="secondary" size="sm" href="#contact">
+              <Button variant="secondary" size="sm" href="https://calendly.com/dextopus/30min">
                 Talk to Us
               </Button>
-              <Button variant="primary" size="sm" href="https://app.dextopus.com">
+              <Button variant="primary" size="sm" href="https://dextopus.gitbook.io/dextopus-docs">
                 Start Building
               </Button>
             </div>
@@ -106,7 +105,7 @@ export default function Navigation() {
               <Button
                 variant="secondary"
                 size="md"
-                href="#contact"
+                href="https://calendly.com/dextopus/30min"
                 className="w-full"
               >
                 Talk to Us
@@ -114,7 +113,7 @@ export default function Navigation() {
               <Button
                 variant="primary"
                 size="md"
-                href="https://app.dextopus.com"
+                href="https://dextopus.gitbook.io/dextopus-docs"
                 className="w-full"
               >
                 Start Building

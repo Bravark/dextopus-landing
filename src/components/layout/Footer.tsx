@@ -7,9 +7,7 @@ export default function Footer() {
   const footerLinks = [
     { label: 'Privacy', href: '/privacy' },
     { label: 'Terms', href: '/terms' },
-    { label: 'Docs', href: 'https://docs.dextopus.com', external: true },
-    { label: 'Status', href: 'https://status.dextopus.com', external: true },
-  ]
+     ]
 
   const socialLinks = [
     {

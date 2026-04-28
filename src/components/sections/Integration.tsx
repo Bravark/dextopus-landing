@@ -49,18 +49,11 @@ export default function Integration() {
             <em className="font-normal italic text-text-dim">not months.</em>
           </h2>
           <p className="text-xl text-text-dim">
-            The Swagger environment runs against production. Make real API calls and
+            Make real API calls and
             see real responses before writing a single line of integration code.
           </p>
 
-          <div className="flex gap-3">
-            <button className="px-6 py-3 bg-accent-gold text-background rounded-lg font-semibold hover:bg-accent-gold-light transition-colors">
-              Read the Docs
-            </button>
-            <button className="px-6 py-3 border border-border text-text rounded-lg font-semibold hover:border-accent-gold/50 transition-colors">
-              Test in Swagger
-            </button>
-          </div>
+          
         </div>
 
         <div className="space-y-0">

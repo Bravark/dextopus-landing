@@ -18,10 +18,10 @@ export default function UseCases() {
     {
       title: 'Stablecoin Payment Rails',
       description:
-        'USDT on Tron, USDC on Base, xDAI on Gnosis, USDC on Celo. Every stablecoin corridor your clients need, from one integration.',
+        'USDT across 15 chains. USDC across 39 chains. Every corridor your clients need, one integration.',
     },
     {
-      title: 'Payment Processors',
+      title: 'Global Payment Processors',
       description:
         'A sender in Lagos with USDT. A recipient in Singapore wanting USDC on Base. A supplier in Dubai wanting USDT on Tron. One API covers every corridor.',
     },

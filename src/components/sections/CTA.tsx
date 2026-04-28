@@ -15,11 +15,11 @@ export default function CTA() {
           Join hundreds of platforms using Dextopus for cross-chain payments
         </p>
         <div className="flex flex-wrap justify-center gap-4">
-          <Button variant="primary" size="lg" href="https://app.dextopus.com">
+          <Button variant="primary" size="lg" href="https://dextopus.gitbook.io/dextopus-docs">
             Start Building
           </Button>
-          <Button variant="outline" size="lg" href="mailto:hello@dextopus.com">
-            Talk to Sales
+          <Button variant="outline" size="lg" href="https://calendly.com/dextopus/30min">
+            Talk to Us
           </Button>
         </div>
       </div>

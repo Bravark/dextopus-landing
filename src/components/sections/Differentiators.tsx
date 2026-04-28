@@ -9,7 +9,7 @@ export default function Differentiators() {
     {
       title: 'Static Addresses',
       description:
-        'Users get permanent deposit addresses - no address rotation required',
+        'Users get permanent deposit addresses, no address rotation required',
       badge: 'First',
     },
     {
@@ -39,7 +39,7 @@ export default function Differentiators() {
     {
       title: 'Non-Custodial',
       description:
-        "You maintain full control - we never custody your users' funds",
+        "You maintain full control, we never hold your users' funds. All transactions are atomic.",
       badge: null,
     },
   ]

@@ -276,7 +276,7 @@ export default function TokenCoverage() {
           <h2 className="text-h2 font-extrabold">
             <span className="text-gradient">150+ tokens across 70+ chains.</span>{' '}
             <em className="font-normal italic text-text-dim">
-              Your users send from what they hold.
+              Your users send what they hold.
             </em>
           </h2>
           <p className="text-xl text-text-dim max-w-3xl">
