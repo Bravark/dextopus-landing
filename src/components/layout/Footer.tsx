@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { LOGO_BASE64 } from '../../assets/logo'
+import logo from '../../assets/logo.png'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -49,7 +49,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo & Copyright */}
           <div className="flex items-center gap-3">
-            <img src={LOGO_BASE64} alt="Dextopus" className="w-6 h-6" />
+            <img src={logo} alt="Dextopus" className="w-6 h-6" />
             <span className="text-text-dim text-sm">
               © {currentYear} Dextopus. All rights reserved.
             </span>

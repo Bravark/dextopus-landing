@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../ui/Button'
-import { LOGO_BASE64 } from '../../assets/logo'
+import logo from '../../assets/logo.png'
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -19,7 +19,7 @@ export default function Navigation() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
-              <img src={LOGO_BASE64} alt="Dextopus" className="w-8 h-8" />
+              <img src={logo} alt="Dextopus" className="w-8 h-8" />
               <span className="text-xl font-syne font-bold">Dextopus</span>
             </Link>
 
